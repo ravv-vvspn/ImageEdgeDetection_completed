@@ -1,0 +1,28 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Mar 25 23:52:04 2025
+| Host         : RaviAcer running 64-bit major release  (build 9200)
+| Command      : report_exceptions -name exceptions_1 -file {E:/0aCrashedHP/0a_ResumePreparation2020/00a2024/pixxel/assignment/vfiles/gateway_engineer_assignment/NewChanges_Testbech_SerialHandshake_BetterConstraints/reports/timing_report exceptionstxt.txt}
+| Design       : top2
+| Device       : 7a200t-sbv484
+| Speed File   : -2L  PRODUCTION 1.23 2018-06-13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                          Through                                                         To                                      Setup           Hold            Status                         
+--------  ----------------------------  --------------------------------------------------------------  --------------------------------------  --------------  --------------  -------------------------------
+4         [get_clocks clk_100mhz]       *                                                               [get_clocks clk_200mhz]                 false           false           Totally overridden path by CG 3
+5         [get_clocks clk_200mhz]       *                                                               [get_clocks clk_100mhz]                 false           false           Totally overridden path by CG 3
+6         [get_ports reset_n]           *                                                               *                                       false           false           
+15        *                             [get_ports -scoped_to_current_instance -no_traverse src_arst]   *                                       false           false           
+16        [get_cells src_gray_ff_reg*]  *                                                               [get_cells {dest_graysync_ff_reg[0]*}]  max_dpo=5       -               Totally overridden path by CG 3
+18        [get_cells src_gray_ff_reg*]  *                                                               [get_cells {dest_graysync_ff_reg[0]*}]  max_dpo=10      -               Totally overridden path by CG 3
+20        *                             *                                                               [get_cells {syncstages_ff_reg[0]}]      false           false           Totally overridden path by CG 3
+21        *                             *                                                               [get_cells {syncstages_ff_reg[0]}]      false           false           Totally overridden path by CG 3
+22        *                             *                                                               [get_cells {syncstages_ff_reg[0]}]      false           false           Totally overridden path by FP 6
+23        *                             *                                                               [get_cells {syncstages_ff_reg[0]}]      false           false           Totally overridden path by FP 6
+3         [get_clocks { clk_200mhz }]                                                                   [get_clocks { clk_100mhz }]             clock_group     clock_group     
+3         [get_clocks { clk_100mhz }]                                                                   [get_clocks { clk_200mhz }]             clock_group     clock_group     
+

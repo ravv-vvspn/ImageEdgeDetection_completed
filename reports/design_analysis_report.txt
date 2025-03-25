@@ -1,0 +1,67 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Mar 25 23:53:59 2025
+| Host         : RaviAcer running 64-bit major release  (build 9200)
+| Command      : report_design_analysis -timing -setup -max_paths 10 -congestion -name design_analysis_1 -file E:/0aCrashedHP/0a_ResumePreparation2020/00a2024/pixxel/assignment/vfiles/gateway_engineer_assignment/NewChanges_Testbech_SerialHandshake_BetterConstraints/reports/design_analysis_report.txt
+| Design       : top2
+| Device       : xc7a200t
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Design Analysis
+
+Table of Contents
+-----------------
+1. Setup Path Characteristics 1-10
+2. Placer Final Level Congestion Reporting
+3. Initial Estimated Router Congestion Reporting
+4. SLR Net Crossing Reporting
+
+1. Setup Path Characteristics 1-10
+----------------------------------
+
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+---------------+-------------------+-----------------+-----------+-----------+--------------+------------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+---------------------------------------------------------------+-----------------------------+
+|   Paths  | Requirement | Path Delay | Logic Delay |  Net Delay | Clock Skew | Slack | Clock Relationship | Logic Levels | Routes |  Logical Path | Start Point Clock | End Point Clock | DSP Block |    BRAM   | IO Crossings | Config Crossings | SLR Crossings | PBlocks | High Fanout | Dont Touch | Mark Debug | Start Point Pin Primitive | End Point Pin Primitive |                        Start Point Pin                        |        End Point Pin        |
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+---------------+-------------------+-----------------+-----------+-----------+--------------+------------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+---------------------------------------------------------------+-----------------------------+
+| Path #1  |      10.000 |      3.121 | 1.849(60%)  | 1.272(40%) |     -4.886 | 0.057 | Safely Timed       |            1 |      1 | FDRE OBUF     | clk_100mhz        | clk_100mhz      | None      | None      |            3 |                0 |             0 |       0 |           2 |          0 |          0 | FDRE/C                    | wr_rst_busy             | ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.wr_rst_busy_i_reg/C | wr_rst_busy                 |
+| Path #2  |       5.000 |      1.888 | 1.887(100%) | 0.001(0%)  |     -4.182 | 0.094 | Safely Timed       |            1 |      1 | FDCE OBUF     | clk_200mhz        | clk_200mhz      | None      | None      |            2 |                0 |             0 |       0 |           1 |          0 |          0 | FDCE/C                    | serial_data             | serial_data_reg/C                                             | serial_data                 |
+| Path #3  |       5.000 |      1.885 | 1.884(100%) | 0.001(0%)  |     -4.180 | 0.100 | Safely Timed       |            1 |      1 | FDCE OBUF     | clk_200mhz        | clk_200mhz      | None      | None      |            2 |                0 |             0 |       0 |           1 |          0 |          0 | FDCE/C                    | serial_valid            | serial_valid_reg/C                                            | serial_valid                |
+| Path #4  |       5.000 |      4.275 | 0.379(9%)   | 3.896(91%) |     -0.184 | 0.464 | Safely Timed       |            0 |      1 | FDCE FDCE     | clk_200mhz        | clk_200mhz      | None      | None      |            0 |                0 |             0 |       0 |          62 |          0 |          0 | FDCE/C                    | FDCE/D                  | pixel_out_reg[6]/C                                            | row_buffer_reg[1][51][6]/D  |
+| Path #5  |       5.000 |      4.405 | 2.125(49%)  | 2.280(51%) |     -0.005 | 0.508 | Safely Timed       |            0 |      1 | RAMB18E1 FDCE | clk_200mhz        | clk_200mhz      | None      | No DO_REG |            0 |                0 |             0 |       0 |          64 |          0 |          0 | RAMB18E1/CLKARDCLK        | FDCE/D                  | DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/CLKARDCLK      | line_buffer_reg[2][41][0]/D |
+| Path #6  |       5.000 |      4.382 | 2.125(49%)  | 2.257(51%) |     -0.012 | 0.511 | Safely Timed       |            0 |      1 | RAMB18E1 FDCE | clk_200mhz        | clk_200mhz      | None      | No DO_REG |            0 |                0 |             0 |       0 |          64 |          0 |          0 | RAMB18E1/CLKARDCLK        | FDCE/D                  | DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/CLKARDCLK      | line_buffer_reg[2][62][2]/D |
+| Path #7  |       5.000 |      4.221 | 0.379(9%)   | 3.842(91%) |     -0.184 | 0.513 | Safely Timed       |            0 |      1 | FDCE FDCE     | clk_200mhz        | clk_200mhz      | None      | None      |            0 |                0 |             0 |       0 |          62 |          0 |          0 | FDCE/C                    | FDCE/D                  | pixel_out_reg[6]/C                                            | row_buffer_reg[1][8][6]/D   |
+| Path #8  |       5.000 |      4.146 | 0.379(10%)  | 3.767(90%) |     -0.252 | 0.520 | Safely Timed       |            0 |      1 | FDCE FDCE     | clk_200mhz        | clk_200mhz      | None      | None      |            0 |                0 |             0 |       0 |          62 |          0 |          0 | FDCE/C                    | FDCE/D                  | pixel_out_reg[0]/C                                            | row_buffer_reg[1][58][0]/D  |
+| Path #9  |       5.000 |      4.213 | 0.379(9%)   | 3.834(91%) |     -0.185 | 0.520 | Safely Timed       |            0 |      1 | FDCE FDCE     | clk_200mhz        | clk_200mhz      | None      | None      |            0 |                0 |             0 |       0 |          62 |          0 |          0 | FDCE/C                    | FDCE/D                  | pixel_out_reg[1]/C                                            | row_buffer_reg[1][48][1]/D  |
+| Path #10 |       5.000 |      4.452 | 0.379(9%)   | 4.073(91%) |      0.050 | 0.520 | Safely Timed       |            0 |      1 | FDCE FDCE     | clk_200mhz        | clk_200mhz      | None      | None      |            0 |                0 |             0 |       0 |          62 |          0 |          0 | FDCE/C                    | FDCE/D                  | pixel_out_reg[6]/C                                            | row_buffer_reg[1][13][6]/D  |
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+---------------+-------------------+-----------------+-----------+-----------+--------------+------------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+---------------------------------------------------------------+-----------------------------+
+* Bounding box calculated as % of dimensions for the target device (436, 500)
+
+
+2. Placer Final Level Congestion Reporting
+------------------------------------------
+
++-----------+-------+------------+--------+---------------+---------------+-----+--------+------+------+------+-----+-------+-----+------------+
+| Direction | Level | Congestion | Window | Combined LUTs | Avg LUT Input | LUT | LUTRAM | Flop | MUXF | RAMB | DSP | CARRY | SRL | Cell Names |
++-----------+-------+------------+--------+---------------+---------------+-----+--------+------+------+------+-----+-------+-----+------------+
+* No congestion windows are found above level 5
+
+
+3. Initial Estimated Router Congestion Reporting
+------------------------------------------------
+
++-----------+------+-------+------------------+--------+---------------+---------------+-----+--------+------+------+------+-----+-------+-----+------------+
+| Direction | Type | Level | Percentage Tiles | Window | Combined LUTs | Avg LUT Input | LUT | LUTRAM | Flop | MUXF | RAMB | DSP | CARRY | SRL | Cell Names |
++-----------+------+-------+------------------+--------+---------------+---------------+-----+--------+------+------+------+-----+-------+-----+------------+
+* No effective congestion windows are found above level 5
+
+
+4. SLR Net Crossing Reporting
+-----------------------------
+
++------------+-----------------------------+
+| Cell Names | Number of Nets crossing SLR |
++------------+-----------------------------+
+* The current part is not an SSI device
+
+
