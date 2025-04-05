@@ -1,7 +1,7 @@
 
 1. "AssigmentReport" pdf file gives an overview of the project and implementation details of the project
 2. "Gateware Engineer Assignment.pdf" is problem statement and specifications to be met
-3. "Improvements Needed" file lists some issues faced and possible improvements during intial submission on March 23
+3. "Improvements Needed" file lists some issues faced during intial submission on March 23 and possible improvements that could be made to alleviate the issues
 4. "Improvements Made" file lists the final improvements that were made to finalize the design on March 25 Midnight IST/ March 26 Early morning
 
 
