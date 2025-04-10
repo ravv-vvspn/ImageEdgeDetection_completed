@@ -26,6 +26,11 @@ Some Input Images 64x64 pixels
 ![test7](https://github.com/user-attachments/assets/45d786e7-03f1-47e8-bf85-336d6f1c7fc5)
 ![test6](https://github.com/user-attachments/assets/393d83d9-2f23-417b-bace-034112c5edf5)
 ![test11](https://github.com/user-attachments/assets/6cbe5ca3-2192-45b7-838e-3f447a0772cf)
+![test15](https://github.com/user-attachments/assets/c6332f53-f251-43aa-b4d3-305e8987b68f)
+![test13](https://github.com/user-attachments/assets/2d988495-42d9-4e70-8645-7fdca13ce45a)
+![test12](https://github.com/user-attachments/assets/342318b1-b887-4a1b-9420-692db47755fe)
+![test3](https://github.com/user-attachments/assets/f55fe9ee-1c09-4088-a8ad-ab0489d83150)
+![test1](https://github.com/user-attachments/assets/3f35deda-8b94-4408-8fc3-73cbdc2a3afd)
 
 Corresponding Outputs from Pooling layer 31x31
 
@@ -41,6 +46,11 @@ Outputs using Non-DSP Edge calculation using adders
 ![out7_impl](https://github.com/user-attachments/assets/d809fd4e-f3f3-4585-b8dc-1027a448d4ea)
 ![out6_impl](https://github.com/user-attachments/assets/75bc9528-d5f6-412f-b8f0-eecee5f07d6c)
 ![out11_impl](https://github.com/user-attachments/assets/c3e8ab4b-93d1-4bb3-8fe7-e18e6c55dcc2)
+![out15_impl](https://github.com/user-attachments/assets/7987717d-2755-4ab9-b0ac-00f688793541)
+![out13_impl](https://github.com/user-attachments/assets/f7c1e454-e56f-4328-a70d-d1cd880e1230)
+![out12_impl](https://github.com/user-attachments/assets/2fc91c7a-b99a-4733-8336-fec8f4019e8a)
+![out3_impl](https://github.com/user-attachments/assets/5527385f-cbdb-4e79-acfc-ccfff632997b)
+![out1_impl](https://github.com/user-attachments/assets/c6ceba2b-e1b5-479a-b97e-13b76c83c889)
 
 
 Outputs using DSP Multiplication and SquareRoot Edge calculation
@@ -55,6 +65,11 @@ Outputs using DSP Multiplication and SquareRoot Edge calculation
 ![out7](https://github.com/user-attachments/assets/8660126c-ef73-4873-9a26-a473687c462a)
 ![out6](https://github.com/user-attachments/assets/e4c87352-0337-4e09-b465-d3a68b2ef089)
 ![out11](https://github.com/user-attachments/assets/dacbb3db-56a8-4111-8856-132286460852)
+![out15](https://github.com/user-attachments/assets/22bf6bff-c117-4758-aba1-1851d286ca1e)
+![out13](https://github.com/user-attachments/assets/f9981759-df88-4685-9b2d-be6537f37283)
+![out12](https://github.com/user-attachments/assets/2a92c7c1-77e7-4560-a044-da9c77368f40)
+![out3](https://github.com/user-attachments/assets/2c3a1fb8-3bc7-4639-8648-c717b23d74d9)
+![out1](https://github.com/user-attachments/assets/7d44e07e-7127-49f7-9890-113957624ff3)
 
 Output Images obtained from Sobel module bypassing pooling layer
 
@@ -67,7 +82,13 @@ Output Images obtained from Sobel module bypassing pooling layer
 ![out8](https://github.com/user-attachments/assets/dd1235f6-8c9d-4bea-8bae-07b8f641636b)
 ![out7](https://github.com/user-attachments/assets/78e3a95d-eb52-4c50-9f9c-c9b9d202671d)
 ![out6](https://github.com/user-attachments/assets/58a3e73c-2a17-488e-ad19-43a45c8d2e5b)
-![out1](https://github.com/user-attachments/assets/a0e79974-b6ca-4bd5-af41-a198b422fb32)
+![out11](https://github.com/user-attachments/assets/b5a217b8-3d06-4389-9b4e-a802f3f2433e)
+![out15](https://github.com/user-attachments/assets/9949cf60-7e0a-4cd7-97bf-a65a1b9e9183)
+![out13](https://github.com/user-attachments/assets/56cd5b97-f695-4731-9b32-2a332417f65c)
+![out12](https://github.com/user-attachments/assets/d3d5e72a-f2ed-4314-82e2-7fad836e575f)
+![out3](https://github.com/user-attachments/assets/05228537-f429-4e36-b6c5-089cd438306c)
+![out1](https://github.com/user-attachments/assets/5ae36b06-8b54-4b18-8be9-d2b4fe58d11b)
+
 
 
 Difference between Non-DSP and DSP Implementations
