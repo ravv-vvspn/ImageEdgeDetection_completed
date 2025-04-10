@@ -56,6 +56,20 @@ Outputs using DSP Multiplication and SquareRoot Edge calculation
 ![out6](https://github.com/user-attachments/assets/e4c87352-0337-4e09-b465-d3a68b2ef089)
 ![out11](https://github.com/user-attachments/assets/dacbb3db-56a8-4111-8856-132286460852)
 
+Output Images obtained from Sobel module bypassing pooling layer
+
+![out16](https://github.com/user-attachments/assets/93713c0d-6edd-47cc-84e1-d9d7b9500df9)
+![out14](https://github.com/user-attachments/assets/fd6f94ab-a63d-4bb9-a3a3-69fbc68c6c04)
+![out5](https://github.com/user-attachments/assets/c83c5ee3-8115-4c6f-b461-f19089da0235)
+![out4](https://github.com/user-attachments/assets/22f36f32-ac3b-47d3-a20d-81d16482ce39)
+![out2](https://github.com/user-attachments/assets/1dde5af0-26d1-4942-b0fd-46690e0378b1)
+![out9](https://github.com/user-attachments/assets/689f30de-b4bf-4927-8a65-9d563f455556)
+![out8](https://github.com/user-attachments/assets/dd1235f6-8c9d-4bea-8bae-07b8f641636b)
+![out7](https://github.com/user-attachments/assets/78e3a95d-eb52-4c50-9f9c-c9b9d202671d)
+![out6](https://github.com/user-attachments/assets/58a3e73c-2a17-488e-ad19-43a45c8d2e5b)
+![out1](https://github.com/user-attachments/assets/a0e79974-b6ca-4bd5-af41-a198b422fb32)
+
+
 Difference between Non-DSP and DSP Implementations
 
 Sobel module uses adders to create Edgedensity pixels
@@ -66,6 +80,8 @@ Sobel module uses DSP Multiplier and SquareRoot units create Edgedensity pixels
 ![sobel DSP computation](https://github.com/user-attachments/assets/49acd30b-6bb6-4247-8756-5b3370aca735)
 
 The New DSP implementation verilog and report files are in subfolder "DSP_version_implemented"
+
+
 
 
 
