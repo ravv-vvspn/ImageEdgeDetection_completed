@@ -37,7 +37,6 @@ Corresponding Outputs from Pooling layer 31x31
 ----------------------------------------------
 
 Outputs using Non-DSP Edge calculation using adders
----------------------------------------------------
 
 ![out16_impl](https://github.com/user-attachments/assets/3d439c70-1eb4-4fa8-81af-bd6c2f347d0e)
 ![out14_impl](https://github.com/user-attachments/assets/8c0cd75c-1276-453b-83b8-0281b3655c8c)
@@ -56,9 +55,10 @@ Outputs using Non-DSP Edge calculation using adders
 ![out1_impl](https://github.com/user-attachments/assets/c6ceba2b-e1b5-479a-b97e-13b76c83c889)
 
 
-The New DSP implementation verilog and report files are in subfolder "DSP_version_implemented"
 Outputs using DSP Multiplication and SquareRoot Edge calculation
-----------------------------------------------------------------
+
+The New DSP implementation verilog and report files are in subfolder "DSP_version_implemented"
+
 
 ![out16](https://github.com/user-attachments/assets/52dcf865-187e-4ecf-a825-c4d799a94bee)
 ![out14](https://github.com/user-attachments/assets/3b908b8b-faf5-4464-b6a2-8bdfb80d40d4)
@@ -77,7 +77,6 @@ Outputs using DSP Multiplication and SquareRoot Edge calculation
 ![out1](https://github.com/user-attachments/assets/7d44e07e-7127-49f7-9890-113957624ff3)
 
 Output Images obtained from Sobel module bypassing pooling layer
-----------------------------------------------------------------
 
 ![out16](https://github.com/user-attachments/assets/93713c0d-6edd-47cc-84e1-d9d7b9500df9)
 ![out14](https://github.com/user-attachments/assets/fd6f94ab-a63d-4bb9-a3a3-69fbc68c6c04)
